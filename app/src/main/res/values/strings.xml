@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">androlearn</string>
+    <string name="animal_name">Name of the Animal:</string>
+    <string name="animal_power">Animal Power:</string>
+    <string name="animal_speed">Animal Speed:</string>
+    <string name="left"><![CDATA[<]]></string>
+    <string name="right"><![CDATA[>]]></string>
+
+
+    <string-array name="font_sizes">
+
+        <item>20dp</item>
+        <item>40dp</item>
+        <item>60dp</item>
+        <item>10dp</item>
+        <item>30dp</item>
+        <item>70dp</item>
+        <item>30dp</item>
+        <item>5dp</item>
+
+    </string-array>
+
+
+    <string-array name="font_sizes_values">
+
+        <item>20</item>
+        <item>40</item>
+        <item>60</item>
+        <item>10</item>
+        <item>30</item>
+        <item>70</item>
+        <item>30</item>
+        <item>5</item>
+
+    </string-array>
+
+</resources>

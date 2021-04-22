@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory android:title="Text Number1 Settings">
+
+        <CheckBoxPreference
+
+            android:key="CHECKBOX_FONT_NUMBER1_TEXT1"
+            android:title="Poppins"
+            android:id="@+id/checkBox1"
+            android:summary="This is font number 1"
+            android:defaultValue="Poppins-Black.ttf"/>
+
+        <CheckBoxPreference
+
+            android:key="CHECKBOX_FONT_NUMBER2_TEXT1"
+            android:id="@+id/checkBox2"
+            android:title="ProximaNova"
+            android:summary="This is font number 2"
+            android:defaultValue="ProximaNova-Regular.ttf"/>
+
+        <CheckBoxPreference
+
+            android:key="CHECKBOX_FONT_NUMBER3_TEXT1"
+            android:id="@+id/checkBox3"
+            android:title="OpenSans"
+            android:summary="This is font number 3"
+            android:defaultValue="OpenSans-Regular.ttf"/>
+
+        <ListPreference
+
+            android:key="FONT_SIZE_TEXT1"
+            android:title="Specify the size of fonts to your text1"
+            android:dialogTitle="Choose one of these values"
+            android:entries="@array/font_sizes"
+            android:entryValues="@array/font_sizes_values"
+            android:defaultValue="10"/>
+
+
+
+
+
+    </PreferenceCategory>
+
+
+
+
+    <PreferenceCategory android:title="Text Number2 Settings">
+
+        <CheckBoxPreference
+
+            android:key="CHECKBOX_FONT_NUMBER1_TEXT2"
+            android:title="Poppins"
+            android:id="@+id/checkBox4"
+            android:summary="This is font number 1"
+            android:defaultValue="Poppins-Black.ttf"/>
+
+        <CheckBoxPreference
+
+            android:key="CHECKBOX_FONT_NUMBER2_TEXT2"
+            android:id="@+id/checkBox5"
+            android:title="ProximaNova"
+            android:summary="This is font number 2"
+            android:defaultValue="ProximaNova-Regular.ttf"/>
+
+        <CheckBoxPreference
+
+            android:key="CHECKBOX_FONT_NUMBER3_TEXT2"
+            android:id="@+id/checkBox6"
+            android:title="OpenSans"
+            android:summary="This is font number 3"
+            android:defaultValue="OpenSans-Regular.ttf"/>
+
+        <ListPreference
+
+            android:key="FONT_SIZE_TEXT2"
+            android:title="Specify the size of fonts to your text2"
+            android:dialogTitle="Choose one of these values"
+            android:entries="@array/font_sizes"
+            android:entryValues="@array/font_sizes_values"
+            android:defaultValue="10"/>
+
+    </PreferenceCategory>
+
+
+
+
+    <PreferenceCategory android:title="Text Number3 Settings">
+
+        <CheckBoxPreference
+
+            android:key="CHECKBOX_FONT_NUMBER1_TEXT3"
+            android:title="Poppins"
+            android:id="@+id/checkBox7"
+            android:summary="This is font number 1"
+            android:defaultValue="Poppins-Black.ttf"/>
+
+        <CheckBoxPreference
+
+            android:key="CHECKBOX_FONT_NUMBER2_TEXT3"
+            android:id="@+id/checkBox8"
+            android:title="ProximaNova"
+            android:summary="This is font number 2"
+            android:defaultValue="ProximaNova-Regular.ttf"/>
+
+        <CheckBoxPreference
+
+            android:key="CHECKBOX_FONT_NUMBER3_TEXT3"
+            android:id="@+id/checkBox9"
+            android:title="OpenSans"
+            android:summary="This is font number 3"
+            android:defaultValue="OpenSans-Regular.ttf"/>
+
+        <ListPreference
+
+            android:key="FONT_SIZE_TEXT3"
+            android:title="Specify the size of fonts to your text3"
+            android:dialogTitle="Choose one of these values"
+            android:entries="@array/font_sizes"
+            android:entryValues="@array/font_sizes_values"
+            android:defaultValue="10"/>
+
+    </PreferenceCategory>
+
+
+
+
+
+</PreferenceScreen>
