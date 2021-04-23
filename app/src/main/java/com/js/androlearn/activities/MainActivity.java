@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     private EditText text1,text2;
-    private Button calculate,animalActivity,gridActivity,imageSwatcher,viewFlipper,accessContact,tabHost,imageDownload,notification,preferences;
+    private Button calculate,animalActivity,gridActivity,imageSwatcher,viewFlipper,accessContact,tabHost,imageDownload,notification,preferences,spinner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -95,6 +95,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 startActivity(new Intent(MainActivity.this, PreferencesActivity.class ));
+            }
+        });
+
+
+        spinner=findViewById(R.id.btnSpinner);
+        spinner.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,SpinnerActivity.class));
             }
         });
 

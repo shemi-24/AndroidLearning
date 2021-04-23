@@ -80,10 +80,10 @@
         android:id="@+id/btnViewFlipperAnimator"
         android:layout_width="wrap_content"
         android:layout_height="42dp"
-        android:layout_marginTop="148dp"
+        android:layout_marginTop="144dp"
         android:text="Go to View Flipper"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.522"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/calculate" />
 
@@ -131,13 +131,24 @@
         app:layout_constraintTop_toBottomOf="@+id/calculate" />
 
     <Button
+        android:id="@+id/btnSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginTop="384dp"
+        android:text="Go to Spinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.766"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calculate" />
+
+    <Button
         android:id="@+id/btnPreference"
         android:layout_width="wrap_content"
         android:layout_height="42dp"
-        android:layout_marginTop="372dp"
+        android:layout_marginTop="384dp"
         android:text="Go to Preferences"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintHorizontal_bias="0.066"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/calculate" />
 

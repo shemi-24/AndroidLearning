@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Androlearn">
-        <activity android:name=".activities.LanscapeUiActivity"></activity>
+        <activity android:name=".activities.SpinnerActivity"></activity>
+        <activity android:name=".activities.LanscapeUiActivity" />
         <activity android:name=".activities.ConnectITunesActivity" />
         <activity android:name=".activities.PreferencesActivity" />
         <activity android:name=".activities.NotificationActivity" />
